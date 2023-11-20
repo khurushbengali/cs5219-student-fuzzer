@@ -22,3 +22,12 @@ python student_fuzzer.py
 
 Several example bugs are included in the `examples` directory.
 To run the fuzzer on an example bug, copy e.g. `examples/0/bug.py` to the base directory of this repository before running the fuzzer with the command above.
+
+Testing:
+
+```
+cd testing
+python test.py
+```
+
+Finds Mean and Variance and compares with baseline
